@@ -1,0 +1,14 @@
+KubePivot / K8s Commander 数据目录
+
+【GitHub 公开仓库】
+  本目录下的 config.json、日志、reports/ 已被 .gitignore 排除，不会上传。
+  首次克隆后请复制：
+    copy config.example.json config.json
+  再填入你自己的 API Key、代理等（勿提交 config.json）。
+
+config.json       — 本地配置（AI Key、代理、界面参数）；关闭程序时自动保存
+config.example.json — 配置模板（可提交 Git，无密钥）
+k8s_commander.log — 运行日志
+reports/          — AI / RBAC 审计报告
+
+整包复制到其他电脑时，可带上 data/ 以迁移个人配置（不要公开分享该文件夹）。

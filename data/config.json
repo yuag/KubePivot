@@ -1,0 +1,35 @@
+{
+  "apiserver": "https://127.0.0.1:6443",
+  "namespace": "default",
+  "cacert": "/var/run/secrets/kubernetes.io/serviceaccount/ca.crt",
+  "node_ip": "127.0.0.1",
+  "role_name": "my-role",
+  "configmap": "kube-root-ca.crt",
+  "pod": "my-pod",
+  "secret": "my-secret",
+  "deployment": "my-deployment",
+  "service": "my-service",
+  "container": "",
+  "node": "my-node",
+  "local_port": "8080",
+  "remote_port": "80",
+  "skip_tls": true,
+  "mode": "curl",
+  "group": "K8s",
+  "ai": {
+    "provider": "DeepSeek",
+    "api_key": "",
+    "base_url": "https://api.deepseek.com/v1/chat/completions",
+    "model": "deepseek-chat",
+    "format": "openai",
+    "auto_save": false
+  },
+  "proxy": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": "1080",
+    "username": "",
+    "password": "",
+    "test_url": ""
+  }
+}
