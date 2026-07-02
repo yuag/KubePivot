@@ -90,7 +90,7 @@ python k8s_commander.py
 
 ---
 
-## 6. 功能展示
+## 7. 功能展示
 <br>
 
   自动识别环境
